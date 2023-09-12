@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Room homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .main{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      border: white;
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .container{
+      display: flex;
+    }
+    .img img{
+      position: relative;
+    }
+    .nav{
+      display: flex;
+      position: absolute;
+      margin-top: -420px;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      margin-left: 30px;
+    }
+    .list{
+      display: flex;
+    }
+    li{
+      text-decoration: none;
+      color: white;
+      list-style: none;
+    }
+    a{
+      color: white;
+      text-decoration: none;
+      padding: 30px;
+
+      font-size: 18px;
+    }
+    .text{
+      margin-left: 70px;
+      margin-top: 50px;
+    }
+    .furniture{
+      display: flex;
+      margin-top: -17px;
+    }
+    .About{
+      margin-left: 10px;
+    }
+    .fur{
+      margin-top: 30px;
+    }
+    .p{
+      margin-top: -10px;
+    }
+    .icon{
+      background-color: black;
+      width: 110px;
+      margin-left: -70px;
+      margin-top: 55px;
+    }
+    p svg{
+      padding: 20px;
+    }
+   
+  </style>
+</head>
+<body>
+  <div class="main">
+
+  <div class="container">
+
+    <div class="image">
+      <img src="./images/desktop-image-hero-1.jpg" alt="" srcset="" width="700px">
+
+      <div class="nav">
+       <div class="logo">
+        <h1>room</h1>
+       </div>
+       <div class="list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+       </div>
+      </div>
+    </div>
+
+    <div class="text">
+      <h1>Discover innovative <br> ways to decorate</h1>
+      <p>  We provide unmatched quality, comfort, and style for property <br> owners across the country. 
+        Our experts combine form and <br> function in bringing your vision to life. Create a room in your <br>
+        own style with our collection and make your property a <br> reflection of you and what you love.</p>
+        <h3>SHOP NOW   <svg width="40" height="12" xmlns="http://www.w3.org/2000/svg"><path d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z" fill="#000" fill-rule="nonzero"/></svg></h3>
+
+        <div class="icon">
+          <p><svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M13 0L1 12l12 12" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg><svg width="14" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M1 0l12 12L1 24" stroke="#FFF" fill="none" fill-rule="evenodd"/></svg></p>
+        </div>
+      </div>
+  </div>
+
+
+  <div class="furniture">
+
+    <div class="img">
+      <img src="./images/image-about-dark.jpg" alt="" srcset="">
+    </div>
+
+    <div class="About">
+      <h1 class="fur">About our future</h1>
+      <p class="p"> Our multifunctional collection blends design and function to suit your <br> individual taste.
+        Make each room unique, or pick a cohesive theme that best <br> express your interests and what
+        inspires you. <br> Find the furniture pieces you need, from traditional to contemporary styles
+        or anything in between. <br> Product specialists are available to help you create your dream space.</p>
+    </div>
+
+    <div class="img">
+      <img src="./images/image-about-light.jpg" alt="" srcset="">
+    </div>
+  </div>
+</div>
+</body>
+</html>
